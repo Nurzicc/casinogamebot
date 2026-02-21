@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background: linear-gradient(#0f2027, #203a43, #2c5364);
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.game-container {
+    padding-top: 50px;
+}
+
+.sky {
+    position: relative;
+    height: 300px;
+}
+
+#plane {
+    position: absolute;
+    left: 0;
+    top: 200px;
+    font-size: 40px;
+    transition: transform 0.1s linear;
+}
+
+#multiplier {
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.controls {
+    margin-top: 40px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#startBtn {
+    background: #4CAF50;
+}
+
+#cashoutBtn {
+    background: #ff9800;
+}
